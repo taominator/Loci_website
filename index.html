@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-md fixed-top bg-light">
+  <nav id="mynavbar" class="navbar navbar-expand-md fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Loci</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" >
@@ -39,23 +39,23 @@
     </div>
   </nav>
     <div class="container-fluid text-center">
-      <h1>LOCI</h1>
-      <div class="about-loci">
+      <h1 class="col-md-12 mx-auto">LOCI</h1>
+      <div class="col-lg-4 col-md-6 col-sm-12 mx-auto" id="about-loci">
         <p>
-          "<b><i>Loci</i></b> is a flashcard app that uses a modified version of the <a href="">SM2(supermemo2)</a> algorithm to set the intervals between reviews. Users have the option to choose between four options that will modify the review interval depending on the difficulty. Loci can be run on <a href="">Windows</a>, <a href="">Mac</a>, <a href="">Android</a> and <a href="">Linux(Ubuntu v20+)</a>."
+          "<b><i>Loci</i></b> is a flashcard app that uses a modified version of the <a href="https://www.supermemo.com/en/archives1990-2015/english/ol/sm2">SM2(supermemo2)</a> algorithm to set the intervals between reviews. Users have the option to choose between four options that will modify the review interval depending on the difficulty. Loci can be run on <a href="https://drive.google.com/uc?export=download&id=1xK3xDqLP29xBR2cejHUFMYiiFo3krku8">Windows</a>, <a href="https://drive.google.com/uc?export=download&id=1_fac3ARV0CvgISK4u8gT2Uo8cybDs9vX">Mac</a>, <a href="https://drive.google.com/uc?export=download&id=1Thz3u8fQJjtoJRVYccBFy2r1Zx39aoRQ">Android</a> and <a href="https://drive.google.com/uc?export=download&id=1p2bjsM0NPRAr-PvlYr5oE5GizG2F1VcN">Linux(Ubuntu v20+)</a>."
         </p>
       </div>
-      <div>
-        <h2>Download</h2>
-        <div class="" role="operating-system" aria-label="Select operating-system"">
-          <a href="https://drive.google.com/uc?export=download&id=1xK3xDqLP29xBR2cejHUFMYiiFo3krku8" class="btn btn-primary" role="button">Windows</a>
-          <a href="https://drive.google.com/uc?export=download&id=1_fac3ARV0CvgISK4u8gT2Uo8cybDs9vX" class="btn btn-primary" role="button">MacOS</a>
-          <a href="https://drive.google.com/uc?export=download&id=1p2bjsM0NPRAr-PvlYr5oE5GizG2F1VcN" class="btn btn-primary" role="button">Linux</a>
-          <a href="https://drive.google.com/uc?export=download&id=1Thz3u8fQJjtoJRVYccBFy2r1Zx39aoRQ" class="btn btn-primary" role="button">Android</a>
+      <div class="col-md-6 col-sm-12 mx-auto">
+        <h2 id="download-text" class="col-12">Download</h2>
+        <div class="row justify-content-around" role="operating-system" aria-label="Select operating-system"">
+          <a href="https://drive.google.com/uc?export=download&id=1xK3xDqLP29xBR2cejHUFMYiiFo3krku8" class="btn btn-primary col-2" role="button">Windows</a>
+          <a href="https://drive.google.com/uc?export=download&id=1_fac3ARV0CvgISK4u8gT2Uo8cybDs9vX" class="btn btn-primary col-2" role="button">MacOS</a>
+          <a href="https://drive.google.com/uc?export=download&id=1p2bjsM0NPRAr-PvlYr5oE5GizG2F1VcN" class="btn btn-primary col-2" role="button">Linux</a>
+          <a href="https://drive.google.com/uc?export=download&id=1Thz3u8fQJjtoJRVYccBFy2r1Zx39aoRQ" class="btn btn-primary col-2" role="button">Android</a>
         </div>
       </div>
-      <div class = "container-fluid" id="carousel-div">
-        <h2>Features</h2>
+      <div class="col-md-8 col-12 mx-auto" id="carousel-div">
+        <h2 id="carousel-h2">Features</h2>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -83,7 +83,7 @@
           </a>
         </div>
       </div>
-      <div class="container-fluid">
+      <div class="col-md-8 col-12 mx-auto">
         <p>
           Please look at at the instructions below to learn how to get started and any other questions regarding how to use the app.
         </p>
